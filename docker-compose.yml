@@ -10,7 +10,7 @@ services:
     ports:
      - "8080:5000"
     networks:
-      - javahome-app
+      - javahome-app3
   redis:
     container_name: redis
     image: "redis"
